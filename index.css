@@ -57,7 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: ;
+  justify-content: center;
 }
 .stars {
   margin-top: 2rem;
