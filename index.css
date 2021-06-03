@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+:root {
+  --ff-all: "Spartan", sans-serif;
+  --fc-vdm: hsl(300, 43%, 22%);
+  --fc-sp: hsl(333, 80%, 67%);
+  --fc-dgm: hsl(303, 10%, 53%);
+  --fc-lgm: hsl(300, 24%, 96%);
+  --fc-white: hsl(0, 0%, 100%);
+}
