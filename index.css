@@ -17,9 +17,8 @@ body {
   background: url(./images/bg-pattern-top-desktop.svg),
     url(./images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat, no-repeat;
-  background-size: 500px, 500px;
-  background-position: left top, 900px 200px;
-  background-color: var(--fc-lgm);
+  background-size: 600px, 1500px 900px;
+  background-position: left top, 100px 30px;
   font-size: 15px;
   font-family: var(--ff-all);
   display: flex;
