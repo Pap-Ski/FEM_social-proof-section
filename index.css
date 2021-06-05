@@ -8,76 +8,132 @@
   --fc-lgm: hsl(300, 24%, 96%);
   --fc-white: hsl(0, 0%, 100%);
 }
-* div {
-  border: 2px solid black;
+* {
+  padding: 0;
+  margin: 0;
 }
+
 body {
   font-size: 15px;
   font-family: var(--ff-all);
-  margin: 0;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .main {
-  margin: 5%;
+  margin: 5% 10%;
   width: 90%;
   height: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 }
 
 .top {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
 }
 .top-left {
-  width: 50%;
+  width: 45%;
 }
 .top-left h1 {
-  font-size: 3.5rem;
-  margin-bottom: 0px;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-bottom: 10px;
   color: var(--fc-vdm);
 }
 .top-left p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--fc-dgm);
-  /* line-height: 2rem; */
+  line-height: 1.5rem;
 }
 
 .top-right {
   width: 50%;
-  height: 100%;
+  /* height: 100%;
   border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around; */
 }
 .stars {
-  margin-top: 2rem;
-  padding: 1%;
+  padding: 2.5%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 80%;
+  background-color: var(--fc-lgm);
+  color: var(--fc-vdm);
+  font-weight: 700;
+  border-radius: 5px;
 }
 .report-guru {
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 10%;
 }
 .besttech {
   margin-left: 20%;
 }
+
 .star-icon {
-  padding: 2%;
+  margin-left: 10px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
 }
+
 .bottom {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: var(--fc-vdm);
+  padding: 2rem;
+  width: 26%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card.two {
+  margin-top: 2%;
+}
+.card.three {
+  margin-top: 4%;
+}
+.person {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+}
+
+.person img {
+  margin-right: 1.5rem;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.desc p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: var(--fc-white);
+  font-weight: 600;
+}
+.desc p span {
+  color: var(--fc-sp);
+  font-weight: 100;
+}
+
+.quote {
+  margin-top: 10%;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  color: var(--fc-white);
 }
